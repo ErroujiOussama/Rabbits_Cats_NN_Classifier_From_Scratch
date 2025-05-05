@@ -126,7 +126,7 @@ def gradient_descent(X, Y, alpha, iterations):
   return W1, B1, W2, B2
 
 ####################
-W1, B1, W2, B2 = gradient_descent(X_train, Y_train, 0.1, 1000)
+W1, B1, W2, B2 = gradient_descent(X_train, Y_train, 0.01, 1000)
 
 ##################
 val_index = 1
