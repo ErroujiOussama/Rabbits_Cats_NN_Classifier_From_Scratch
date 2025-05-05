@@ -21,7 +21,7 @@ The classification pipeline consists of the following components:
   $$
   \text{ReLU}(z) = \max(0, z)
   $$
-* **Output Layer**: 2 neurons, activated using the softmax function for multi-class probability:
+ **Output Layer**: 2 neurons, activated using the softmax function for multi-class probability:
 
   $$
   \text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j} e^{z_j}}
